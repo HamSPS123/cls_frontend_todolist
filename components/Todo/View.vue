@@ -2,7 +2,7 @@
     <div>
       <div v-if="loading">Loading...</div>
       <Button label="Add" icon="pi pi-plus" severity="success" @click="handleAdd" class="mb-4"></Button>    
-      <div v-if="!loading" class="w-full flex justify-between gap-4">
+      <div v-if="!loading" class="w-full flex flex-col md:flex-row justify-between gap-4">
   
         <Card class="w-full flex-1">
           <template #title>Todos</template>

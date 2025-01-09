@@ -11,7 +11,6 @@ This project is a **Todo List Application** built with the following technologie
 - **Add Todos**: Create new todo items with a title, description, status, user assignment, and a deadline.
 - **Edit Todos**: Update existing todo items.
 - **Delete Todos**: Remove todos that are no longer needed.
-- **Filter and Search**: Search and filter todos by status or user.
 - **Responsive Design**: Fully responsive UI, optimized for desktop and mobile devices.
 - **State Management**: Manage todos and application state efficiently using Pinia.
 

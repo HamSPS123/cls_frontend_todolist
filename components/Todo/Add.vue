@@ -1,7 +1,7 @@
 <template>
   <Dialog
     v-model:visible="isOpen"
-    header="Edit"
+    header="Add"
     modal
     :style="{ width: '25rem' }"
     @hide="onHide"
