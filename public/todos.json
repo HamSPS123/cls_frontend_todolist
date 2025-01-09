@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "title": "Finish Nuxt 3 documentation",
+        "description": "Complete the official Nuxt 3 documentation by the end of the week.",
+        "status": "todo",
+        "user": {
+            "id": 1,
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "dateline": "2025-01-20"
+    },
+    {
+        "id": 2,
+        "title": "Implement Pinia store",
+        "description": "Set up a Pinia store for state management in Nuxt 3.",
+        "status": "doing",
+        "user": {
+            "id": 2,
+            "firstname": "Jane",
+            "lastname": "Smith"
+        },
+        "dateline": "2025-01-22"
+    },
+    {
+        "id": 3,
+        "title": "Design user interface",
+        "description": "Create the user interface with Tailwind CSS for the to-do list app.",
+        "status": "done",
+        "user": {
+            "id": 1,
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "dateline": "2025-01-18"
+    },
+    {
+        "id": 4,
+        "title": "Test functionality",
+        "description": "Test the app to ensure all features are working as expected.",
+        "status": "todo",
+        "user": {
+            "id": 3,
+            "firstname": "Alice",
+            "lastname": "Johnson"
+        },
+        "dateline": "2025-01-25"
+    },
+    {
+        "id": 5,
+        "title": "Deploy to production",
+        "description": "Deploy the to-do list app to production and make it live.",
+        "status": "doing",
+        "user": {
+            "id": 2,
+            "firstname": "Jane",
+            "lastname": "Smith"
+        },
+        "dateline": "2025-02-01"
+    },
+    {
+        "id": 6,
+        "title": "Fix authentication issues",
+        "description": "Resolve the issues with user authentication on the app.",
+        "status": "todo",
+        "user": {
+            "id": 4,
+            "firstname": "Bob",
+            "lastname": "Williams"
+        },
+        "dateline": "2025-02-05"
+    },
+    {
+        "id": 7,
+        "title": "Add user roles",
+        "description": "Implement user roles (admin, user) for access control in the app.",
+        "status": "doing",
+        "user": {
+            "id": 5,
+            "firstname": "Eve",
+            "lastname": "Davis"
+        },
+        "dateline": "2025-02-10"
+    },
+    {
+        "id": 8,
+        "title": "Update app dependencies",
+        "description": "Check and update outdated dependencies in the project.",
+        "status": "done",
+        "user": {
+            "id": 1,
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "dateline": "2025-01-15"
+    },
+    {
+        "id": 9,
+        "title": "Refactor codebase",
+        "description": "Refactor the codebase to improve readability and performance.",
+        "status": "todo",
+        "user": {
+            "id": 3,
+            "firstname": "Alice",
+            "lastname": "Johnson"
+        },
+        "dateline": "2025-01-30"
+    },
+    {
+        "id": 10,
+        "title": "Create user guide",
+        "description": "Write the user manual for the app to help users get started.",
+        "status": "doing",
+        "user": {
+            "id": 2,
+            "firstname": "Jane",
+            "lastname": "Smith"
+        },
+        "dateline": "2025-02-05"
+    },
+    {
+        "id": 11,
+        "title": "Set up CI/CD pipeline",
+        "description": "Configure continuous integration and delivery pipeline for the app.",
+        "status": "done",
+        "user": {
+            "id": 4,
+            "firstname": "Bob",
+            "lastname": "Williams"
+        },
+        "dateline": "2025-01-12"
+    },
+    {
+        "id": 12,
+        "title": "Add dark mode support",
+        "description": "Implement dark mode for the user interface.",
+        "status": "todo",
+        "user": {
+            "id": 5,
+            "firstname": "Eve",
+            "lastname": "Davis"
+        },
+        "dateline": "2025-02-20"
+    },
+    {
+        "id": 13,
+        "title": "Write unit tests",
+        "description": "Write unit tests for the main components of the app.",
+        "status": "doing",
+        "user": {
+            "id": 3,
+            "firstname": "Alice",
+            "lastname": "Johnson"
+        },
+        "dateline": "2025-01-28"
+    },
+    {
+        "id": 14,
+        "title": "Optimize performance",
+        "description": "Work on optimizing the app's performance for better speed.",
+        "status": "done",
+        "user": {
+            "id": 1,
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "dateline": "2025-01-10"
+    },
+    {
+        "id": 15,
+        "title": "Implement pagination",
+        "description": "Add pagination for the to-do list items to improve UI performance.",
+        "status": "todo",
+        "user": {
+            "id": 2,
+            "firstname": "Jane",
+            "lastname": "Smith"
+        },
+        "dateline": "2025-02-15"
+    },
+    {
+        "id": 16,
+        "title": "Add search functionality",
+        "description": "Implement search functionality to filter to-do items.",
+        "status": "doing",
+        "user": {
+            "id": 4,
+            "firstname": "Bob",
+            "lastname": "Williams"
+        },
+        "dateline": "2025-02-08"
+    },
+    {
+        "id": 17,
+        "title": "Fix bug in notifications",
+        "description": "Fix the bug in the notification system where alerts are not triggered.",
+        "status": "todo",
+        "user": {
+            "id": 5,
+            "firstname": "Eve",
+            "lastname": "Davis"
+        },
+        "dateline": "2025-02-12"
+    },
+    {
+        "id": 18,
+        "title": "Improve security features",
+        "description": "Work on improving the app's security features, including encryption.",
+        "status": "doing",
+        "user": {
+            "id": 3,
+            "firstname": "Alice",
+            "lastname": "Johnson"
+        },
+        "dateline": "2025-02-01"
+    },
+    {
+        "id": 19,
+        "title": "Update database schema",
+        "description": "Update the database schema to support new features in the app.",
+        "status": "done",
+        "user": {
+            "id": 1,
+            "firstname": "John",
+            "lastname": "Doe"
+        },
+        "dateline": "2025-01-05"
+    },
+    {
+        "id": 20,
+        "title": "Add file upload feature",
+        "description": "Implement file upload functionality for users to add attachments to tasks.",
+        "status": "todo",
+        "user": {
+            "id": 2,
+            "firstname": "Jane",
+            "lastname": "Smith"
+        },
+        "dateline": "2025-02-25"
+    }
+]
