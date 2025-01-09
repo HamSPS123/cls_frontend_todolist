@@ -39,6 +39,12 @@ export const useTodoStore = defineStore("todos", () => {
     selectedTodo.value = todos.value.find((item) => item?.id === id)!;
   };
 
+  const onAdd = (todo: any) => {
+    const id = todos.value.length +1
+    const item = {id: id, ...todo}
+    todos.value.push(item)
+  }
+
   const editTodo = (todo: Todo) => {
     console.log(todo)
     todos.value = todos.value.map((item) => item.id === todo.id ? todo : item)
@@ -58,6 +64,7 @@ export const useTodoStore = defineStore("todos", () => {
     doingStatus,
     selectedTodo,
     editTodo,
-    deleteTodo
+    deleteTodo,
+    onAdd
   };
 });

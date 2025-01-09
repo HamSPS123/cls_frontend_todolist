@@ -1,6 +1,7 @@
 <template>
     <div>
       <div v-if="loading">Loading...</div>
+      <Button label="Add" icon="pi pi-plus" severity="success" @click="handleAdd" class="mb-4"></Button>    
       <div v-if="!loading" class="w-full flex justify-between gap-4">
   
         <Card class="w-full flex-1">
@@ -39,6 +40,7 @@
           </template>
         </Card>
       </div>
+      <TodoAdd v-model:value="isOpenAdd" />
       <TodoEdit v-model:value="isOpenEdit" :selected="selectedId!" />
     </div>
   </template>
@@ -47,7 +49,8 @@
   import { storeToRefs } from "pinia";
   import { useTodoStore } from "~/stores/todos";
   const store = useTodoStore();
-  const isOpenEdit = ref<boolean>(false)
+  const isOpenAdd = ref<boolean>(false)
+    const isOpenEdit = ref<boolean>(false)
   const selectedId = ref<number | null>(null)
   
   const { completeds, todoStatus, doingStatus, loading } = storeToRefs(store);
@@ -66,6 +69,9 @@
 
   const handleDelete = (id: number) => {
     store.deleteTodo(id)
+  }
+  const handleAdd = () => {
+    isOpenAdd.value = true
   }
   </script>
   
