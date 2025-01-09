@@ -1,75 +1,29 @@
-# Nuxt Minimal Starter
+# Todo List Project
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Overview
+This project is a **Todo List Application** built with the following technologies:
+- **Nuxt.js 3**: A modern web framework for building Vue 3 applications with server-side rendering and static site generation.
+- **PrimeVue**: A UI component library for Vue 3 that provides feature-rich and customizable components.
+- **TailwindCSS**: A utility-first CSS framework for fast and responsive UI design.
+- **Pinia**: A state management library for Vue 3 applications, providing a simple and intuitive API.
 
-## Setup
+## Features
+- **Add Todos**: Create new todo items with a title, description, status, user assignment, and a deadline.
+- **Edit Todos**: Update existing todo items.
+- **Delete Todos**: Remove todos that are no longer needed.
+- **Filter and Search**: Search and filter todos by status or user.
+- **Responsive Design**: Fully responsive UI, optimized for desktop and mobile devices.
+- **State Management**: Manage todos and application state efficiently using Pinia.
 
-Make sure to install dependencies:
+## Installation
 
-```bash
-# npm
-npm install
+### Prerequisites
+Ensure you have the following installed:
+- Node.js (v16 or higher)
+- npm or yarn
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repository/todo-list.git
+   cd todo-list
